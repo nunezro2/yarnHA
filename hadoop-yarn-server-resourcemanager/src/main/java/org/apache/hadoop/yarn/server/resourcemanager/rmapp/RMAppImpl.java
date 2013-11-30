@@ -614,7 +614,6 @@ public class RMAppImpl implements RMApp, Recoverable {
 				LOG.info("Sakshi " + appID + " State change from " + oldState
 						+ " to " + getState() + "after EVENT: "
 						+ event.getType());
-
 				try {
 					transitionLogger.append("Sakshi " + appID
 							+ " State change from " + oldState + " to "
